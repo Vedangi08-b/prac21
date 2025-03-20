@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>
+        PRACTICAL 21
+         Roll No 14
+    </title>
+</head>
+<style>
+    .watermark {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 100px;
+        color: rgba(0, 0, 0, 0.1); 
+        font-weight: bold;
+        z-index: -1; 
+        pointer-events: none;
+        white-space: nowrap;
+    }
+</style>
+<body style="background-color:beige">
+    <div class="watermark">TNADEV</div>
+    <h1 style="background-color:royalblue" align="center">PRACTICAL 21</h1>
+    <h5 align="right"><i><u>By Proff C.S.Mogare.</u></i></h5><hr />
+    <form>
+        <fieldset>
+            <legend>Employee details</legend>
+            <p>
+                First name:<input type="text" name="fname" />
+            </p>
+            <p>
+                Last name:<input type="text" name="lname" />
+            </p>
+            <p>
+                <input type="radio" name="GENDER" value="MALE" /> MALE
+                <input type="radio" name="GENDER" value="FEMALE" /> FEMALE
+            </p>
+            <p>
+                Employee ID:<input type="text" name="ID" />
+            </p>
+            <p>
+                Designation:<input type="text" name="Designation" />
+            </p>
+            <p>
+                phone Number:<input type="text" name="  Phone Number" />
+            </p>
+            <p>
+                Mention Vehicle type:<br />
+                <input type="checkbox" id="vehicle 1" name="vehicle 1" value="bike" />
+                <label for="vehicle 1"> I have Bike</label>
+                <input type="checkbox" id="vehicle 2" name="vehicle 2" value="car" />
+                <label for="vehicle 2"> I have car</label>
+            </p>
+            <p>
+                <input type="SUBMIT" name="SUBMIT" value="SUBMIT" />
+            </p>
+        </fieldset>
+    </form>
+    <script>
+        window.alert('YOUR INFORMATION IS SAVED ')
+    </script>
+</body>
+</html>
